@@ -21,6 +21,7 @@ var param = 10;
                 console.log(elem.cor);
                 console.log(elem.preco);
                 document.getElementById("resultado").innerHTML =  elem.idprod + ' ' + elem.nome + ' ' + elem.cor + ' ' + elem.preco;
+                jQuery("#resultado2").html(elem.idprod);
             });
         }
     });
